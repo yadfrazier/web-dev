@@ -1,0 +1,14 @@
+/* this is a comment in css! its diffrent then the <!-- comment --> */ 
+p,h1,h2{color: #079DE3}
+
+body {color:#000080}
+
+ul{color: blue}
+
+ul li{font-style:italic}
+
+a:hover {color:purple}
+
+.internal-link {font-weight:bolder}
+
+#mail-link {color: gray}
