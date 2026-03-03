@@ -12,3 +12,45 @@ a:hover {color:purple}
 .internal-link {font-weight:bolder}
 
 #mail-link {color: gray}
+
+
+/* this is a comment in css! its diffrent then the <!-- comment --> */ 
+p,h1,h2{color:#a9c7ee}
+
+body {color:#000080;
+background-color:#000000}
+
+
+
+
+h1{background-color: Navy;
+  width:465px;
+  padding:10px;
+  margin:5px auto;
+  text-shadow: 2px 0px white;
+  border-radius: 5px;
+  border: solid 3px   ;
+  
+}
+
+
+
+ul{color:#a9c7ee}
+
+li{color:#9ECEE0}
+
+ul li{font-style:italic}
+
+a:hover {color:purple}
+a {color:#A4C0C6}
+.internal-link {font-weight:bolder}
+
+
+
+
+/* this is a comment in css! its diffrent then the <!-- comment --> */ 
+p,h1,h2{color: #079DE3}
+
+a:hover {color:white}
+
+.internal-link {font-weight:bolder}
