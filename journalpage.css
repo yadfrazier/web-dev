@@ -1,1 +1,154 @@
+body {
+  margin: 0px;
+  background-color: #000000
+}
+
+a {
+  color: black;
+  tex-decoration: none;
+  font-size
+}
+
+
+h1 {
+  width: 50%;
+  text-align: center;
+  margin: 10px auto;
+  color:black;
+}
+
+p {
+  color:black
+}
+
+
+
+
+#nav-menu {
+  display: flex;
+  flex: 1 1 auto;
+  justify-context: space-evenley;
+  positon:sticky;
+  top: 0px;
+  
+}
+
+#stickied {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0px;
+}
+
+.nav-div:hover ul {
+  display: block;
+  list-style-type: none;
+  padding-left:10px;
+  flex-grow: 1;
+}
+
+
+
+.nav-div {
+  text-align: center;
+  flex-grow: 1;
+  border-radius: 20px;
+  magin: 0px;
+  position: relative
+}
+
+.nav-div a {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: rgb(134, 163, 250)
+  
+}
+
+.nav-div ul {
+  display: none;
+ 
+}
+
+.nav-div:hover {
+  background-color: rbga(134, 163, 250, 0.8);
+  font-weight: bold;
+}
+
+.nav-div:hover a {
+  color: #ffffff;
+}
+
+
+
+#big-img {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -99;
+  width: 100vw;
+  
+}
+
+
+#main-content {
+  margin: 0px 15%;
+  background-color: rgba(134, 163, 250, 0.6);
+  padding: 5px 15px 5px;
+  margin-top: 15px;
+}
+
+.art-pic {
+  border:  1px solid #2ca;
+  float: left;
+}
+
+
+
+.art-pic img  {
+  width: 300px;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+.art-pik {
+  border: 1px solid #2ca;
+  float:right;
+}
+
+
+
+.art-pik img{
+  width: 300px;
+  padding: 5px;
+  margin: 5px;
+  
+}
+
+
+
+
+
+#footer {
+  background-color: rgb(134, 163, 250);
+  display: flex;
+  flex: 1 1 auto;
+  justofy-content: space-evenly;
+  color: white
+}
+
+#publish-info {
+  flex-grow: 1;
+  text-align: right;
+  margin: 0px 5%
+}
+
+#address {
+  flex-grow: 1;
+  text-align: left;
+  margin: 0px 5%;
+}
+
 
