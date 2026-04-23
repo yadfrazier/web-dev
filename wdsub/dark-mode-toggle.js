@@ -2,8 +2,10 @@ let topDiv = document.getElementById("top-div");
 
 let bottomDiv = document.getElementById("bottom-div");
 
-function mngColor(event) {
   let isLight = true;
+
+function mngColor(event) {
+
       
       //determine if light is on or off   
   if(isLight) document.body.style.backgroundColor = "black" ;
