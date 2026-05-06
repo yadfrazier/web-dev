@@ -1,0 +1,27 @@
+body {
+  background-color: #248d;
+}
+
+li {
+ list-style-type: none; 
+}
+
+#head {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 1rem;
+}
+#content {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 1rem;
+}
+
+
+li button {
+  background-color: rgba(0,0,0,0);
+  border: 0px;
+  padding-right: 5px;
+}
+
+
