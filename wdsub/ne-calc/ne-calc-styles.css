@@ -1,10 +1,35 @@
-h1 {
-   height: 60px; 
-  text-align: center;
+body {
+  margin: 0px;
 }
 
-p {
-   height: 60px; 
-  text-align: center;
+#matrix {
+  width: 80%;
+  margin: auto;
 }
 
+.matrix-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.matrix-row div {
+  flex: 1 1 0;
+  border: solid black 3px;
+  text-align: center;
+  align-content:center;
+}
+
+.matrix-row div input {
+  width: 60px;
+  
+}
+
+.ne, .ne input {
+  background-color: #3f9;
+  font-weight: 900;
+}
+
+.eliminated, .eliminated input {
+  background-color: #555;
+  text-decoration: line-through solid black 1px
+}
